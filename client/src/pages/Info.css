@@ -1,0 +1,46 @@
+.info-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .info-header {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .info-details {
+    text-align: right;
+  }
+  
+  .info-item {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .info-subheader {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .info-address,
+  .info-company {
+    margin-top: 20px;
+  }
+
+  .background{
+    background-color: #e6e6fa;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
