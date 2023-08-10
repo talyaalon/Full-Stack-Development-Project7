@@ -22,7 +22,7 @@ export default function ShoppingCart() {
 
   if (!cartItems || cartItems.length === 0) {
     return (
-      <div>
+      <div className="empty">
         <h1>עגלת הקניות שלך</h1>
         <p>אין פריטים בעגלה</p>
       </div>

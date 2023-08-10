@@ -220,18 +220,17 @@
   width: 120px; /* Fixed width for the buttons */
   padding: 10px 15px;
   margin: 0 5px; /* Add a small margin on both sides */
-  background-color: #007bff;
-  color: #fff;
+  background-color:  pink;
+  color:  black;
+  font-weight: bold;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .button-container button:hover {
-  background-color: #0069d9;
+  background-color: rgba(176, 31, 31, 0.742);
 }
-
-/* ... Remaining styles ... */
 
 
 .quantity-counter {
@@ -249,9 +248,9 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid #007bff;
+  border: 1px solid red;
   background-color: #fff;
-  color: #007bff;
+  color: red;
   font-size: 16px;
   display: flex;
   align-items: center;

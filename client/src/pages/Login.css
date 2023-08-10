@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e6e6fa; /* Light Purple */
+    background-color:  #e3c7d0
   }
   
   form {
@@ -44,16 +44,17 @@
   
   button {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color:  pink;
+    color:  black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
   }
   
   button:hover {
-    background-color: #0069d9;
+    background-color:rgba(176, 31, 31, 0.742);
   }
   body{
-    background-color: #e6e6fa; /* Light Purple */
+    background-color: #e3c7d0 /* Light Purple */
 }

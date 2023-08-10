@@ -1,5 +1,5 @@
-body{
-    background-color: #e6e6fa; /* Light Purple */
+/* body{
+    background-color: #e6e6fa; 
 }
 
   
@@ -30,6 +30,7 @@ body{
     margin-right: 0;
   }
   
+  
   .user-navigation a {
     text-decoration: none;
     color: #007bff;
@@ -49,7 +50,7 @@ body{
     text-align: center;
     max-width: 700px;
     margin: 0 auto;
-    position:relative; /* Add position relative for positioning the exit button */
+    position:relative; 
   }
   
   .logout-button {
@@ -91,3 +92,152 @@ body{
   .logout-button:hover {
     background-color:  #0069d9;
   }
+
+  .logo{
+    width: 25%;
+    height: 25%;
+  } */
+
+
+  body {
+    background-color: #f3c4d3; /* Light Purple */
+  }
+  
+  .user-name {
+    margin: 5px;
+    font-size: 18px;
+    color: #333;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .user-navigation {
+    margin-top: 30px;
+    background-color: pink; /* Pink background color for the navigation bar */
+    border-radius: 10px; /* Rounded corners for the navigation bar */
+    padding: 10px; /* Adding some padding to the navigation bar */
+  }
+  
+  .user-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-navigation ul li {
+    margin-right: 20px;
+  }
+  
+  .user-navigation ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .user-navigation a {
+    text-decoration: none;
+    color: red; /* Changing the link color to red */
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .user-navigation a:hover {
+    color: darkred; /* Changing the link color on hover to dark red */
+  }
+  
+  .users-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .logout-button {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color:  pink;
+    color:  black;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .personal-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color:  pink;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .shoppingCart-button {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    padding: 10px 20px;
+    background-color:  pink;
+    color:  black;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: rgba(176, 31, 31, 0.742);
+  }
+
+  .personal-button:hover {
+    background-color: rgba(176, 31, 31, 0.742);
+  }
+
+  .shoppingCart-button:hover {
+    background-color: rgba(176, 31, 31, 0.742);
+  }
+  
+  .logo {
+    width: 30%;
+    height: 30%;
+   margin-left: 250px;
+    margin-top: 0px; /* Adding some space between the logo and the navigation */
+  }
+
+  
+  /* ... קוד קודם ... */
+
+.user-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.user-navigation ul li {
+  margin-right: 20px;
+  position: relative; /* Adding relative position for pseudo-elements */
+}
+
+.user-navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.user-navigation ul li:not(:last-child)::after {
+  content: "|"; /* Adding the separator character */
+  margin-left: 10px; /* Adding some space between the separator and the link */
+  color: red; /* Color of the separator */
+  position: absolute; /* Positioning the separator */
+  right: -10px; /* Adjusting the position of the separator */
+}

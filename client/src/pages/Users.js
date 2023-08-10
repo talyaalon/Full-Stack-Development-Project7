@@ -1,12 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
 import "./Users.css";
+import logo from "./logo.jpg";
 
 const Users = () => {
   var user = JSON.parse(localStorage.getItem("currentUser"));
   return (
     <div className="users-container">
-      <h1>סופרמרקט אונליין</h1>
       <h1 className="user-name">שלום {user.name}</h1>
+      <img className="logo" src={logo} alt="logo" />
       <Link to={`/Home/${user.id}/Info`}>
         <button className="personal-button">איזור אישי</button>
       </Link>

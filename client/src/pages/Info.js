@@ -15,6 +15,7 @@ const Info = () => {
       {user && (
         <div className="background">
           <div className="info-details">
+            <h2>פרטים אישיים:</h2>
             <h3 className="info-item">תעודת זהות: {user.id}</h3>
             <h3 className="info-item">שם: {user.name}</h3>
             <h3 className="info-item">שם משתמש: {user.username}</h3>
